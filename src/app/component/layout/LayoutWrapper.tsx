@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import Nav from "./Nav";
 import Footer from "./Footer";
+import TranslateBody from "../user/TranslateBody";
 
 interface LayoutWrapperProps {
   children: React.ReactNode;
@@ -19,6 +20,7 @@ const LayoutWrapper: React.FC<LayoutWrapperProps> = ({ children }) => {
   return (
     <>
       {!shouldHideLayout && <Nav />}
+      {!shouldHideLayout && <TranslateBody />}
       {children}
       {!shouldHideLayout && <Footer />}
     </>

@@ -6,7 +6,7 @@ const TranslateBody = () => {
     <div className="
       w-screen max-w-[100vw]   
         px-2   
-      mt-12  
+      mt-20  
       flex items-center justify-center
       shadow-md   
       rounded-md  

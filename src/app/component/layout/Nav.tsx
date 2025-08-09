@@ -13,7 +13,7 @@ import {
   FaUserCircle
 } from 'react-icons/fa'
 import { HiOutlineMenuAlt3, HiX } from 'react-icons/hi'
-import TranslateBody from '../user/TranslateBody'
+// import TranslateBody from '../user/TranslateBody'
 
 const navLinks = [
   { label: 'Home', href: '/' },
@@ -124,9 +124,9 @@ export default function Navigation() {
             </div>
 
             {/* Language Selector - Desktop */}
-            <div className="hidden md:block ml-4">
+            {/* <div className="hidden md:block ml-4">
               <TranslateBody />
-            </div>
+            </div> */}
 
             {/* Mobile Menu Button */}
             <button
@@ -247,9 +247,7 @@ export default function Navigation() {
                     </a>
                   </div>
 
-                  <div className="text-center">
-                    <TranslateBody />
-                  </div>
+                
                 </div>
               </div>
             </motion.aside>

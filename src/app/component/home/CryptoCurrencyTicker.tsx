@@ -106,7 +106,7 @@ const CryptoCurrencyTicker = () => {
   }, [controls, isHovered]);
 
   return (
-    <div className="relative bg-gradient-to-r from-gray-900 to-gray-800 border-b border-gray-800 py-4 overflow-hidden h-20 flex items-center mt-48">
+    <div className="relative bg-gradient-to-r from-gray-900 to-gray-800 border-b border-gray-800 py-4 overflow-hidden h-20 flex items-center ">
       {/* Ticker label */}
       <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-gray-900 to-transparent z-10 flex items-center pl-6">
         <div className="flex items-center">
