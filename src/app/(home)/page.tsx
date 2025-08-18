@@ -10,6 +10,7 @@ import OurAdvantage from "../component/home/OurAdvantage";
 import OurBusinesses from "../component/home/OurBusinesses";
 import PricingSection from "../component/home/PricingSection";
 import { TestimonialSection } from "../component/home/TestimonialSection";
+import TopInvestors from "../component/home/TopInvestors";
 import { WorkProcess } from "../component/home/WorkProcess";
 import YouTubeVideo from "../component/home/YouTubeVideo";
 import TeamSection from "../component/plan/TeamSection";
@@ -24,6 +25,7 @@ export default function Home() {
   <OurAdvantage />
   <YouTubeVideo />
   <LetsDoGreat />
+  <TopInvestors />
   <AboutUs />
   <PricingSection />
   <InvestmentCalculator />
